@@ -8,7 +8,7 @@
 PRODUCT_NAME = mc_donald_simpleapps_flutter
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.example.mcDonaldSimpleappsFlutter
+PRODUCT_BUNDLE_IDENTIFIER = com.geonwookim.networkUpp;
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2022 com.example. All rights reserved.
