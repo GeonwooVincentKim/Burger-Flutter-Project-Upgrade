@@ -18,111 +18,115 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.7.0 <3.0.0"
+    sdk: '>=2.7.0 <3.0.0'
 
 dependencies:
-  flutter:
-    sdk: flutter
+    flutter:
+        sdk: flutter
 
-  intl: ^0.16.1
-  provider: ^5.0.0
-  flutter_slidable: ^0.5.3
-  toast: ^0.1.5
-  shared_preferences: '>=0.5.0 <2.0.0'
-  dynamic_theme: ^1.0.0
+    intl: ^0.16.1
+    provider: ^5.0.0
+    flutter_slidable: ^0.5.3
+    toast: ^0.1.5
+    shared_preferences: '>=0.5.0 <2.0.0'
+    dynamic_theme: ^1.0.0
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^0.1.3
+    # The following adds the Cupertino Icons font to your application.
+    # Use with the CupertinoIcons class for iOS style icons.
+    cupertino_icons: ^0.1.3
 
 dev_dependencies:
-  flutter_test:
-    sdk: flutter
+    flutter_test:
+        sdk: flutter
+    flutter_launcher_icons: '^0.10.0'
+
+flutter_icons:
+    android: true
+    ios: true
+    image_path: 'assets/basicimages/McDonaldsLogo.jpg'
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
+    # The following line ensures that the Material Icons font is
+    # included with your application, so that you can use the icons in
+    # the material Icons class.
+    uses-material-design: true
 
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
-  uses-material-design: true
+    # To add assets to your application, add an assets section, like this:
+    assets:
+        - assets/basicimages/McDonaldsLogo.jpg
+        - assets/basicimages/404.jpg
+        - assets/basicimages/question.jpg
+        - assets/basicimages/qna.png
+        - assets/basicimages/order.png
 
-  # To add assets to your application, add an assets section, like this:
-  assets:
-    - assets/basicimages/McDonaldsLogo.jpg
-    - assets/basicimages/404.jpg
-    - assets/basicimages/question.jpg
-    - assets/basicimages/qna.png
-    - assets/basicimages/order.png
+        - assets/img/burger/1955Burger.png
+        - assets/img/burger/1955HashBrown.png
+        - assets/img/burger/BigMac.png
+        - assets/img/burger/BulgogiBurger.png
+        - assets/img/burger/Double1955Burger.png
+        - assets/img/burger/DoubleBulgogiBurger.png
+        - assets/img/burger/EggBulgogiBurger.png
+        - assets/img/burger/McChicken.png
+        - assets/img/burger/McChickenMozzarella.png
+        - assets/img/burger/McSpicyShanghaiBurger.png
+        - assets/img/burger/ShrimpBeefBurger.png
+        - assets/img/burger/SupremeShrimpBurger.png
+        - assets/img/burger/RichPotatoBurgerMeal.png
+        - assets/img/burger/RichPotatoMushroomBurgerMeal.png
 
-    - assets/img/burger/1955Burger.png
-    - assets/img/burger/1955HashBrown.png
-    - assets/img/burger/BigMac.png
-    - assets/img/burger/BulgogiBurger.png
-    - assets/img/burger/Double1955Burger.png
-    - assets/img/burger/DoubleBulgogiBurger.png
-    - assets/img/burger/EggBulgogiBurger.png
-    - assets/img/burger/McChicken.png
-    - assets/img/burger/McChickenMozzarella.png
-    - assets/img/burger/McSpicyShanghaiBurger.png
-    - assets/img/burger/ShrimpBeefBurger.png
-    - assets/img/burger/SupremeShrimpBurger.png
-    - assets/img/burger/RichPotatoBurgerMeal.png
-    - assets/img/burger/RichPotatoMushroomBurgerMeal.png
+        - assets/img/McCafe_and_beverages/Americano.png
+        - assets/img/McCafe_and_beverages/CafeLatte.png
+        - assets/img/McCafe_and_beverages/Cappuchino.png
+        - assets/img/McCafe_and_beverages/DecaffeineAmericano.jpg
+        - assets/img/McCafe_and_beverages/DecaffeineCafeLatte.jpg
+        - assets/img/McCafe_and_beverages/DecaffeineIcedAmericano.jpg
+        - assets/img/McCafe_and_beverages/DecaffeineIcedCafeLatte.jpg
+        - assets/img/McCafe_and_beverages/DecaffeineCappuchino.jpg
+        - assets/img/McCafe_and_beverages/IcedAmericano.jpg
+        - assets/img/McCafe_and_beverages/IcedCaffeLatte.png
+        - assets/img/McCafe_and_beverages/PearChiller.png
+        - assets/img/McCafe_and_beverages/StrawberryChiller.jpg
 
-    - assets/img/McCafe_and_beverages/Americano.png
-    - assets/img/McCafe_and_beverages/CafeLatte.png
-    - assets/img/McCafe_and_beverages/Cappuchino.png
-    - assets/img/McCafe_and_beverages/DecaffeineAmericano.jpg
-    - assets/img/McCafe_and_beverages/DecaffeineCafeLatte.jpg
-    - assets/img/McCafe_and_beverages/DecaffeineIcedAmericano.jpg
-    - assets/img/McCafe_and_beverages/DecaffeineIcedCafeLatte.jpg
-    - assets/img/McCafe_and_beverages/DecaffeineCappuchino.jpg
-    - assets/img/McCafe_and_beverages/IcedAmericano.jpg
-    - assets/img/McCafe_and_beverages/IcedCaffeLatte.png
-    - assets/img/McCafe_and_beverages/PearChiller.png
-    - assets/img/McCafe_and_beverages/StrawberryChiller.jpg
+        - assets/img/McMorning/BaconEggMcMuffin.png
+        - assets/img/McMorning/BLTMuffin.png
+        - assets/img/McMorning/ChickenAndCheeseMuffin.png
+        - assets/img/McMorning/DeluxeBreakfast.png
+        - assets/img/McMorning/EggMcMuffin.png
+        - assets/img/McMorning/Hotcakes2pcs.png
+        - assets/img/McMorning/Hotcakes3pcs.jpg
+        - assets/img/McMorning/McSpicyShanghaiChickenSnackWrap.png
+        - assets/img/McMorning/SausageEggMcMuffin.png
+        - assets/img/McMorning/SausageMcMuffin.png
 
-    - assets/img/McMorning/BaconEggMcMuffin.png
-    - assets/img/McMorning/BLTMuffin.png
-    - assets/img/McMorning/ChickenAndCheeseMuffin.png
-    - assets/img/McMorning/DeluxeBreakfast.png
-    - assets/img/McMorning/EggMcMuffin.png
-    - assets/img/McMorning/Hotcakes2pcs.png
-    - assets/img/McMorning/Hotcakes3pcs.jpg
-    - assets/img/McMorning/McSpicyShanghaiChickenSnackWrap.png
-    - assets/img/McMorning/SausageEggMcMuffin.png
-    - assets/img/McMorning/SausageMcMuffin.png
+        - assets/img/sides_and_desserts/ApplePie.png
+        - assets/img/sides_and_desserts/FrenchFries.png
+        - assets/img/sides_and_desserts/GoldenMozzarellaCheeseSticks.png
+        - assets/img/sides_and_desserts/HashBrown.jpg
+        - assets/img/sides_and_desserts/McNuggets.jpg
+        - assets/img/sides_and_desserts/McSpicyChickenTenders.png
+        - assets/img/sides_and_desserts/StringCheese.png
+        - assets/img/sides_and_desserts/TaroPie.png
 
-    - assets/img/sides_and_desserts/ApplePie.png
-    - assets/img/sides_and_desserts/FrenchFries.png
-    - assets/img/sides_and_desserts/GoldenMozzarellaCheeseSticks.png
-    - assets/img/sides_and_desserts/HashBrown.jpg
-    - assets/img/sides_and_desserts/McNuggets.jpg
-    - assets/img/sides_and_desserts/McSpicyChickenTenders.png
-    - assets/img/sides_and_desserts/StringCheese.png
-    - assets/img/sides_and_desserts/TaroPie.png
+    # An image asset can refer to one or more resolution-specific "variants", see
+    # https://flutter.dev/assets-and-images/#resolution-aware.
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.dev/assets-and-images/#resolution-aware.
+    # For details regarding adding assets from package dependencies, see
+    # https://flutter.dev/assets-and-images/#from-packages
 
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.dev/assets-and-images/#from-packages
-
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  fonts:
-    - family: icomoon
-      fonts:
-        - asset: fonts/icomoon/fonts/icomoon.ttf
-          weight: 500
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.dev/custom-fonts/#from-packages
+    # To add custom fonts to your application, add a fonts section here,
+    # in this "flutter" section. Each entry in this list should have a
+    # "family" key with the font family name, and a "fonts" key with a
+    # list giving the asset and other descriptors for the font. For
+    # example:
+    fonts:
+        - family: icomoon
+          fonts:
+              - asset: fonts/icomoon/fonts/icomoon.ttf
+                weight: 500
+    #
+    # For details regarding fonts from package dependencies,
+    # see https://flutter.dev/custom-fonts/#from-packages

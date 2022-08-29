@@ -1,4 +1,4 @@
-package com.example.mc_donald_simpleapps_flutter
+package com.example.mc_donalds_flutter_project_upgrade
 
 import io.flutter.embedding.android.FlutterActivity
 
