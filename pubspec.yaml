@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-    sdk: '>=2.7.0 <3.0.0'
+    sdk: ">=2.7.0 <3.0.0"
 
 dependencies:
     flutter:
@@ -28,7 +28,7 @@ dependencies:
     provider: ^5.0.0
     flutter_slidable: ^0.5.3
     toast: ^0.1.5
-    shared_preferences: '>=0.5.0 <2.0.0'
+    shared_preferences: ">=0.5.0 <2.0.0"
     dynamic_theme: ^1.0.0
 
     # The following adds the Cupertino Icons font to your application.
@@ -38,12 +38,12 @@ dependencies:
 dev_dependencies:
     flutter_test:
         sdk: flutter
-    flutter_launcher_icons: '^0.10.0'
+    flutter_launcher_icons: "^0.10.0"
 
 flutter_icons:
     android: true
     ios: true
-    image_path: 'assets/basicimages/McDonaldsLogo.jpg'
+    image_path: "assets/basicimages/McDonaldsLogo.jpg"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
