@@ -5,10 +5,10 @@
 // 'flutter create' template.
 
 // The application's name. By default this is also the title of the Flutter window.
-PRODUCT_NAME = mc_donald_simpleapps_flutter
+PRODUCT_NAME = McDonalds_SampleApplication;
 
 // The application's bundle identifier
-PRODUCT_BUNDLE_IDENTIFIER = com.geonwookim.networkUpp;
+PRODUCT_BUNDLE_IDENTIFIER = com.geonwookim.mcdonalds_sample_application;
 
 // The copyright displayed in application information
 PRODUCT_COPYRIGHT = Copyright © 2022 com.example. All rights reserved.
