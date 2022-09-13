@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mc_donalds_flutter_project_upgrade">
    <application
-        android:label="McDonalds_SampleApplication"
+        android:label="Burger_Example_Application"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
