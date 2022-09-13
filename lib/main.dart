@@ -43,7 +43,7 @@ class MyAppSub extends StatelessWidget{
   Widget build(BuildContext context) {
     final themeProvider = Provider.of<ProviderThemeDynamic>(context);
     return MaterialApp(
-      title: "McDonaldsApp",
+      title: "BurgerExampleApp",
       theme: themeProvider.getDarkMode() ? darkTheme : lightTheme,
       initialRoute: "/",
       routes: {

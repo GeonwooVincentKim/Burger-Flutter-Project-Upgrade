@@ -24,7 +24,7 @@ class _TestSideMenuState extends State<TestSideMenu> {
             decoration: BoxDecoration(
               color: Theme.of(context).focusColor,
               image: DecorationImage(
-                image: AssetImage("assets/basicimages/McDonaldsLogo.jpg"), fit: BoxFit.cover
+                image: AssetImage("assets/basicimages/play_store_512.png"), fit: BoxFit.cover
               )
             ),
           ),

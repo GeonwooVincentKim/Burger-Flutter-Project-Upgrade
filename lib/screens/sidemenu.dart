@@ -23,7 +23,7 @@ class _SideMenuState extends State<SideMenu> {
             child: null,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("assets/basicimages/McDonaldsLogo.jpg"), fit: BoxFit.cover
+                image: AssetImage("assets/basicimages/play_store_512.png"), fit: BoxFit.cover
               )
             ),
           ),

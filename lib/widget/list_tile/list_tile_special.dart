@@ -9,10 +9,10 @@ class ListTileSpecial extends StatelessWidget {
   final MenuModel spMenuList;
   ListTileSpecial({@required this.spMenuList});
 
-  // If there is no name of image, then shows the 'McDonaldsLogo.jpg' file.
+  // If there is no name of image, thens shows the 'McDonaldsLogo.jpg' file.
   Widget _displayMedia(String media) {
     if (media == null || media == "") {
-      return Image.asset('assets/basicimages/McDonaldsLogo.jpg',
+      return Image.asset('assets/basicimages/play_store_512.png',
           fit: BoxFit.fill);
     } else {
       return Image.asset(media, fit: BoxFit.fill);
